@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="sidebar">
+        <h1 class="logo">Food Web</h1>
+        <div class="sidebar-menus">
+            <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+            <a href="#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+            <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notification</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact us</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+        </div>
+        <div class="sidebar-logout">
+            <a href="#">
+                <ion-icon name="log-out-outline"></ion-icon>Logout
+            </a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-navbar">
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <div class="search">
+                <input type="text" placeholder="What do you want to eat?">
+                <button class="search-bn">Search</button>
+            </div>
+            <div class="profile">
+                <a href="#" class="cart"><ion-icon name="cart-outline"></ion-icon></a>
+                <a href="#" class="user"><ion-icon name="person-outline"></ion-icon></a>
+           
+            </div>
+        </div>
+        <div class="main-highlight">
+            <div class="main-header">
+                <h2 class="main-title">Recommendations</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="highlight-wrapper">
+                <div class="highlight-card">
+                    <img class="highlight-img" src="/salad.jpeg" >
+                    <div class="highlight-desc">
+                        <h4>Fresh Salad</h4>
+                        <p>₹685.89</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="/biriyaani.jpeg" >
+                    <div class="highlight-desc">
+                        <h4>Biriyani</h4>
+                        <p>₹525.89</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="/paneer tikka.jpeg" >
+                    <div class="highlight-desc">
+                        <h4>Paneer Tikka</h4>
+                        <p>₹645.89</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="/chicken rice.jpeg" >
+                    <div class="highlight-desc">
+                        <h4>Chicken Rice</h4>
+                        <p>₹745.89</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="/gopi manjoorian.jpeg" >
+                    <div class="highlight-desc">
+                        <h4>Gopi manchurion</h4>
+                        <p>₹225.89</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="/prawn masala.jpeg" >
+                    <div class="highlight-desc">
+                        <h4>Prawn Masala</h4>
+                        <p>₹445.89</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="/gulab.jpeg" >
+                    <div class="highlight-desc">
+                        <h4>Gulab Jamun</h4>
+                        <p>₹345.89</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="/maggie.jpeg" >
+                    <div class="highlight-desc">
+                        <h4>Maggie</h4>
+                        <p>₹245.89</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="/pastha.jpeg" >
+                    <div class="highlight-desc">
+                        <h4>Pastha</h4>
+                        <p>₹645.89</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-menus">
+            <div class="main-filter">
+                <div>
+                    <h2 class="main-title">Menu <br> Catagory</h2>
+                    <div class="main-arrow">
+                        <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+                        <ion-icon class="next-menus"name="chevron-forward-circle-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="filter-wrapper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="restaurant-outline"></ion-icon>
+                        </div>
+                        <p>All Menus</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="fast-food-outline"></ion-icon>
+                        </div>
+                        <p>Burger</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="pizza-outline"></ion-icon>
+                        </div>
+                        <p>Pizza</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="wine-outline"></ion-icon>
+                        </div>
+                        <p>Wine</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="ice-cream-outline"></ion-icon>
+                        </div>
+                        <p>Ice Cream</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="cafe-outline"></ion-icon>
+                        </div>
+                        <p>Coffee</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="fish-outline"></ion-icon>
+                        </div>
+                        <p>Seafood</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="nutrition-outline"></ion-icon>
+                        </div>
+                        <p>Healthy</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="nutrition-outline"></ion-icon>
+                        </div>
+                        <p>Healthy</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="nutrition-outline"></ion-icon>
+                        </div>
+                        <p>Healthy</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="nutrition-outline"></ion-icon>
+                        </div>
+                        <p>Healthy</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="nutrition-outline"></ion-icon>
+                        </div>
+                        <p>Healthy</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="nutrition-outline"></ion-icon>
+                        </div>
+                        <p>Healthy</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="nutrition-outline"></ion-icon>
+                        </div>
+                        <p>Healthy</p>
+                    </div>
+                </div>
+                
+            </div>
+            <hr class="divider">
+            <div class="main-detail">
+                    <h2 class="main-title">Choose Order</h2>
+                    <div class="detail-wrapper">
+                        <div class="detail-card">
+                            <img class="detail-img" src="./plum c.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Plum Cake</h4>
+                                    <p class="detail-sub">Celebrate this december with this plum!!!</p>
+                                    <p class="price">₹656.77</p>
+                                </div>
+                                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="./thootukudi-macoroon-DP-1.webp">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Macaroon</h4>
+                                    <p class="detail-sub">You will love it guys!!!</p>
+                                    <p class="price">₹267.77</p>
+                                </div>
+                                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="gulab.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Gulab Jamon</h4>
+                                    <p class="detail-sub">The sweetest dish in the galary. Kids will love it.</p>
+                                    <p class="price">₹367.77</p>
+                                </div>
+                                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="./pastha.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Pastha</h4>
+                                    <p class="detail-sub">Have your snack with pastha. What an evening!!!</p>
+                                    <p class="price">₹167.77</p>
+                                </div>
+                                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="./salad.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Salad</h4>
+                                    <p class="detail-sub">Protein diet is ready for yoy Guys!!</p>
+                                    <p class="price">₹436.78</p>
+                                </div>
+                                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            
+                        </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="./prawn masala.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Prawn Masala</h4>
+                                    <p class="detail-sub">Spiciest Prawn masala ever.Have with a coke!</p>
+                                    <p class="price">₹767.77</p>
+                                </div>
+                                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            
+                        </div>
+                       <div class="detail-card">
+                            <img class="detail-img" src="./paneer tikka.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Paneer Tikka</h4>
+                                    <p class="detail-sub">Have your meal with paneer. You just love it.</p>
+                                    <p class="price">₹67.77</p>
+                                </div>
+                                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            
+                        </div> 
+                        <div class="detail-card">
+                            <img class="detail-img" src="./gopi manjoorian.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Gopi Manchurion</h4>
+                                    <p class="detail-sub">Spicy one!!! wooahh</p>
+                                    <p class="price">₹67.77</p>
+                                </div>
+                                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            
+                        </div> 
+                        <div class="detail-card">
+                            <img class="detail-img" src="./chicken rice.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Chicken Rice</h4>
+                                    <p class="detail-sub">What an aroma. Taste it quickly!</p>
+                                    <p class="price">₹267.77</p>
+                                </div>
+                                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            
+                        </div> 
+                        <div class="detail-card">
+                            <img class="detail-img" src="./biriyaani.jpeg">
+                            <div class="detail-desc">
+                                <div class="detail-name">
+                                    <h4>Biriyani</h4>
+                                    <p class="detail-sub">Hot spicy biriyaani is ready for you. Quick delivery!</p>
+                                    <p class="price">₹567.77</p>
+                                </div>
+                                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+    
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+</html>
